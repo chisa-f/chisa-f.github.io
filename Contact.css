@@ -1,0 +1,32 @@
+.navbar-brand {
+	font-weight: bold;
+}
+
+form {
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.content {
+	background: url(https://images.unsplash.com/photo-1591925323311-cd864ae1740b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 80%;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	margin-left: 10%;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #888;
+	text-align: center;
+}
+
+input, textarea, button {
+	box-shadow: 3px 3px 3px #888;
+}
+
+.required {
+	color: red;
+}

@@ -1,0 +1,47 @@
+body {
+	background: url(https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+button {
+	box-shadow: 3px 3px 3px #888;
+}
+
+.content {
+	margin-top: 100px;
+}
+
+.row {
+	padding: 10px;
+}
+
+.skillCategory {
+	color: white;
+	margin-top: 25px;
+	box-shadow: 3px 3px 3px #888;
+	padding: 20px
+}
+
+#language {
+	background: rgba(255, 0, 0, 0.25);
+}
+
+#programmingLanguage {
+	background: rgba(0, 0, 255, 0.25);
+}
+
+#tools {
+	background: rgba(0, 255, 105, 0.25);
+	margin-bottom: 20px;
+}
+
+.progress {
+	box-shadow: 3px 3px 3px #888;
+}
