@@ -1,0 +1,26 @@
+.whole {
+		font-family: 'Noto Serif JP', serif;
+}
+.navbar-brand {
+	font-weight: bold;
+}
+
+.carousel, img {
+	height: 100vh;
+	object-fit:cover;
+}
+
+button {
+	box-shadow: 3px 3px 3px #888;
+}
+
+.textClass {
+	background:rgba(169,169,169, 0.5);
+	text-shadow: 3px 3px 3px #888;
+	box-shadow: 3px 3px 3px #888;
+	padding: 20px
+}
+
+.textClass a {
+	color: white;
+}
