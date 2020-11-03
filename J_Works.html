@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-		<!--required meta tags-->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--required meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="J_Contact.css">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="J_Works.css">
 
-	<!-- font awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 
-  <!--for japanese font-->
+    <!--for japanese font-->
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;700&display=swap" rel="stylesheet">
 
-	<!-- Bootstrap CSS -->
+  <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<title>Chisa Fukutome | 作品</title>
+  <title>Chisa Fukutome | 作品</title>
 </head>
 <body>
 
 <!--navbar-->
-	<div class="whole">
-	<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
-	<div class="container">
+  <div class="whole">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+  <div class="container">
   <a class="navbar-brand" href="#">CHISA FUKUTOME</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -34,19 +34,19 @@
         <a class="nav-link" href="J_Home.html">ホーム</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="J_Plofile.html">プロフィール</span></a>
+        <a class="nav-link" href="J_Plofile.html">プロフィール</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="J_Skills.html">スキル</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="J_Works.html">作品</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">作品 <span class="sr-only">(current)</span></a>
       </li>
 
-      <!--for more projects
+      <!--I'll use dropdown menu when I'll have more projects
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          作品
+          Works
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="#">Java</a>
@@ -55,8 +55,8 @@
         </div>
       </li>
     -->
-      <li class="nav-item active">
-        <a class="nav-link" href="#">問い合わせ <span class="sr-only">(current)</a>
+      <li class="nav-item">
+        <a class="nav-link" href="J_Contact.html">問い合わせ</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="index.html">English</a>
@@ -68,56 +68,55 @@
     </ul>
 
   </div>
-	</div>
+  </div>
 </nav>
 <!--end navbar-->
-
-
 
 <!--card-->
 <div class="container">
   <div class="content">
-    <h1 class="text-center display-4" id="pageTop">Works</h1>
+    <h1 class="text-center display-4" id="pageTop">作品</h1>
     <hr>
-    <h1>このページは編集中です...</h1>
-    <!--1st row-->
-    <!--
-    <div class="row">
-      <div class="skill col-sm-4 col-xl-4 m-0">
-        <div class="card">
-  <img class="card-img-top" src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Portfolio Website</h5>
-    <p class="card-text">Chisa's portfolio website containing my academic plofile, skills, programming projects, and contact form. I also added the portfolio site in Japanese.</p>>
+    <h4 class="text-center display-6"><a href="https://github.com/chisa-f">GitHub<i class="fab fa-github-square"></i></a>ページからも、私のプロジェクトの閲覧が可能です。</h4>
+
+    <!--cards-->
+    <div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="portfolio.PNG" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">ポートフォリオウェブサイト</h5>
+      <p class="card-text">プロフィール、スキル、プログラミングプロジェクト、問い合わせフォームなどを含むChisaのポートフォリオページ。　英語だけでなく、日本語バージョンもあり。</p>
+      <p class="card-text"><small class="text-muted">言語: HTML, CSS, Bootstrap</small></p>
+      <p class="card-text"><small class="text-muted">制作期間: 10/22/2020 - 現在</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1551260627-fd1b6daa6224?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">バンキングアプリケーション</h5>
+      <p class="card-text">顧客として、お金の引き出し、預け入れ、送金機能のある振込銀行アプリ。　管理者として、顧客情報の閲覧、編集なども可能。　さらに、顧客と銀行とのやり取りもこのアプリで可能。.</p>
+      <p class="card-text"><small class="text-muted">言語: Java</small></p>
+      <p class="card-text"><small class="text-muted">制作期間: 11/01/2020 - 現在</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1523476602796-646439cea0bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">プロジェクト名</h5>
+      <p class="card-text">編集中...</p>
+      <p class="card-text"><small class="text-muted">言語: ...</small></p>
+      <p class="card-text"><small class="text-muted">制作期間: ...</small></p>
+    </div>
   </div>
 </div>
-      </div>
-      <div class="skill col-sm-4 col-xl-4 m-0">
-<div class="card">
-  <img class="card-img-top" src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Project1</h5>
-    <p class="card-text">I'm still working on this page.</p>
-  </div>
-</div>        
-      </div>
-      <div class="skill col-sm-4 col-xl-4 m-0">
-        <div class="card">
-  <img class="card-img-top" src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Project2</h5>
-    <p class="card-text">Here will be a description about another project.</p>
-  </div>
-</div>
-      </div>
-    </div>-->
-    <!--end 1st row-->
+<!--end cards-->
 
-    <!--end card-->
+<!--I guess I'll put only top three projects on this page. if project increaces, I'll add another page with all of projects-->
+<!--I might create top three project page with each language.-->
+<!--you will be able to see all of projects through learn more button on the buttom of this page-->
 
   </div>
 </div>
-
 </div>
 
     <!-- Optional JavaScript -->
