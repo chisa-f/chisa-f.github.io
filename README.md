@@ -1,3 +1,3 @@
 # Portfolio Webpage
 
-this is my portfolio webpage
+This is my portfolio webpage
