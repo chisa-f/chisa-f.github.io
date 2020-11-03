@@ -27,4 +27,15 @@ hr {
 	border: 10px solid pink;
 }
 
+h4 {
+	padding: 5px;
+}
+
+.card-deck {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: pink;
+	box-shadow: 3px 3px 3px #888;
+}
+
 
